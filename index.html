@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurante</title>
+<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+    <header>
+        <h1><a href="Principal.html">Pan Frances Desayunos</a></h1>
+    </header>
+    
+    <div class="banner-texto">
+        MENÚ
+    </div>
+    
+    <div class="sticky-header">
+    <nav>
+        <a href="#Chilaquiles">Chilaquiles</a>
+        <a href="#Omelettes">Omelettes</a>
+        <a href="#Huevo_Gusto">Huevos al gusto</a>
+        <a href="#Burritos_Toritos">Burritos y Toritos</a>
+        <a href="#Menu_Infantil">Menu infantil (Kids)</a>
+        <a href="#Hotcakes">Hot Cakes y Pan Frances</a>
+        <a href="#Especialidad_PanBrioche">Pan Brioche</a>
+        <a href="#postres">Postres de Pan Frances</a>
+        <a href="#bowls_Fruta">Bowls y Fruta</a>
+        <a href="#Licuados_Jugos">Jugos y Licuados</a>
+        <a href="#Cafes">Cafes</a>
+        <a href="#Frappes">Frappes</a>
+        <a href="#Aguas_Refrescos">Aguas y refrescos</a>
+        <a href="#Bebidas">Bebidas
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar...">
+    </div>
+
+    </div>
+    
+    <img src="img.jpg" alt="" class="section-image">
+    
+    <!-- SECCIONES DE MENÚ -->
+    <section id="Chilaquiles" class="menu-section">
+        <h2>Chilaquiles</h2>
+    <div class="products">
+        <div class="product" onclick="openModal('Chilaquiles rojos', 'Salsa roja receta de la casa, queso, crema, cebolla desflemada, frijoles.', 139, 'imagenes/chialquiles rojos.jpg')">
+            <img src="imagenes/chialquiles rojos.jpg" alt="">
+            <h3>Chilaquiles Rojos</h3>
+            <p></p>
+            <strong>$139</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Verdes', 'Tradicional Salsa Verde Tatemada, acompañados de queso, crema, cebolla desflemada, frijoles y aguacate. ', 139, 'imagenes/chilaquiles verdes.jpg')">
+            <img src="imagenes/chilaquiles verdes.jpg" alt="">
+            <h3>Chilaquiles Verdes</h3>
+            <p></p>
+            <strong>$139</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Poblanos', 'Salsa cremosa poblana con granos de elote salteados, acompañados de queso, crema, cebolla desflemada, frijoles. ', 139, 'imagenes/chilaquiles poblanos.jpg')">
+            <img src="imagenes/chilaquiles poblanos.jpg" alt="">
+            <h3>Chilaquiles Poblanos</h3>
+            <p></p>
+            <strong>$139</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Chipotle', 'Tradicional Salsa Verde Tatemada, acompañados de queso, crema, cebolla desflemada, frijoles y aguacate.', 147, 'imagenes/chilaquile chipotle.jpg')">
+            <img src="imagenes/chilaquile chipotle.jpg" alt="">
+            <h3>Chilaquiles Chipotle</h3>
+            <p></p>
+            <strong>$147</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Mole', 'Receta de la casa acompañados de pollo 100 Gr, queso, crema, cebolla desflemada, frijoles', 167, 'imagenes/chilaquiles mole.jpg')">
+            <img src="imagenes/chilaquiles mole.jpg" alt="">
+            <h3>Chilaquiles Mole</h3>
+            <p></p>
+            <strong>$167</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Bandera', 'Salsa roja de la casa y salsa verde tatemada, con 1 huevo acompañados de queso, crema, cebolla desflemada, frijoles.', 147, 'imagenes/chilaquiles bandera.jpg')">
+            <img src="imagenes/chilaquiles bandera.jpg" alt="">
+            <h3>Chilaquiles Bandera</h3>
+            <p></p>
+            <strong>$147</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Mix', 'Salsa Cremosa chipotle y salsa cremosa poblana, acompañados de queso, crema, cebolla desflemada, frijoles.', 147, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Chilaquiles Mix</h3>
+            <p></p>
+            <strong>$147</strong>
+        </div>
+        <div class="product" onclick="openModal('Chilaquiles Frances', 'SALSA A ELEGIR (roja, verde, chipotle, poblana, mole) acompañados de 2 huevos revueltos, Pan Frances hidratado en receta de la casa, con azúcar y canela.', 177, 'imagenes/chilaqules frances.jpg')">
+            <img src="imagenes/chilaqules frances.jpg" alt="">
+            <h3>Chilaquiles Frances</h3>
+            <p></p>
+            <strong>$177</strong>
+        </div>
+        <!-- Copia este bloque 9 veces más con diferentes productos -->
+        </div>
+    </section>
+
+    <section id="Omelettes" class="menu-section">
+    <h2>Omelettes</h2>
+    <div class="products">
+    <!-- Producto de ejemplo -->
+    <div class="product" onclick="openModal('Omelettes prensado', 'Relleno de Queso Mozzarella con Chicharrón prensado, cebolla, cilantro, chile serrano y aguacate. Acompañado de frijoles y papa campesina.', 149, 'imagenes/omelette chicharron prensado_.jpg')">
+        <img src="imagenes/omelette chicharron prensado_.jpg" alt="">
+        <h3>Omelettes prensado</h3>
+        <p></p>
+        <strong>$149</strong>
+    </div>
+    <div class="product" onclick="openModal('Omelettes Tradicional', '2 piezas Relleno de queso mozzarella, jamón de pechuga de pavo acompañado de chile serrano frijoles con media porción de chilaquiles Salsa (roja o verde).', 179, 'imagenes/omelete tradiconal.jpg')">
+        <img src="imagenes/omelete tradiconal.jpg" alt="">
+        <h3>Omelettes Tradicional</h3>
+        <p></p>
+        <strong>$179</strong>
+    </div>
+    <div class="product" onclick="openModal('Omelettes Vegetariano', 'Elaborado con claras de huevo, relleno de panela, pimiento morrón, espinaca, champiñón, tomate cherry, acompañado de ensalada (bajo en calorías).', 149, 'imagenes/omelete vegetariano.jpg')">
+        <img src="imagenes/omelette vegetariano.jpg" alt="">
+        <h3>Omelettes Vegetariano</h3>
+        <p></p>
+        <strong>$149</strong>
+    </div>
+    <div class="product" onclick="openModal('Omelettes Vegetariano', 'Relleno de queso mozzarella con pollo a la plancha, chile morrón, cebolla caramelizada, ', 159, 'imagenes/omelete vegetariano pollo.jpg')">
+        <img src="imagenes/omelette vegetariano pollo.jpg" alt="">
+        <h3>Omelettes Vegetariano</h3>
+        <p></p>
+        <strong>$159</strong>
+    </div>
+    </section>
+
+    <section id="Huevo_Gusto" class="menu-section">
+        <h2>Huevos al gusto</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Omelettes (2 piezas)', 'Selecciona 2 opciones, acompañado de frijoles', 133, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Omelettes (2 piezas)</h3>
+            <p></p>
+            <strong>$133.00</strong>
+        </div>
+
+        <div class="product" onclick="openModal('Machacona', '3 piezas de huevo revuelto con machaca acompañado de frijoles y aguacate.  ', 147, 'imagenes/huevos con machaca.jpg')">
+            <img src="imagenes/huevos con machaca.jpg" alt="">
+            <h3>Machacona</h3>
+            <p> </p>
+            <strong>$147</strong>
+        </div>
+
+        <div class="product" onclick="openModal('Rancheros', '2 piezas de huevo estrellados sobre una tortilla de maíz con frijoles filete de caña de res bañados en salsa 3 chiles ajonjolí y aguacate', 137, 'imagenes/huevos rancheros.jpg')">
+            <img src="imagenes/huevos rancheros.jpg" alt="">
+            <h3>Huevos Rancheros</h3>
+            <p></p>
+            <strong>$137</strong>
+        </div>
+    </section>
+
+    <section id="Burritos_Toritos" class="menu-section">
+        <h2>Burritos y Toritos</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Burrito de Arrachera', 'Costra de queso relleno de arrachera, frijoles, cebolla, jitomate, cilantro acompañado de aguacate y ensalada con fresa, almendra y pasas.', 139, 'imagenes/burro arrachera.jpg')">
+            <img src="imagenes/burro arrachera.jpg" alt="Arracher">
+            <h3>Burrito de Arrachera</h3>
+            <p></p>
+            <strong>$139</strong>
+        </div>
+        <div class="product" onclick="openModal('Torito', 'Tortilla de harina rellena de machaca frijoles y aguacate bañado en salsa cremosa de chipotle con costra de queso mozzarella', 167, 'imagenes/torito machaca.jpg')">
+            <img src="imagenes/torito machaca.jpg" alt="">
+            <h3>Torito</h3>
+            <p></p>
+            <strong>$167</strong>
+        </div>
+    </section>
+
+    <section id="Menu_Infantil" class="menu-section">
+        <h2>Kids</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Churrito', 'Pan brioche empanizado de azúcar y canela bañado en caramelo con helado.', 98, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Churrito</h3>
+            <p></p>
+            <strong>$98</strong>
+        </div>
+        <div class="product" onclick="openModal('Dinno', 'Hot cakes acompañados de fruta temporada topping a elegir cajeta, nutella, miel de maple, lechera', 96, 'imagenes/hot cake dinno kid.jpg')">
+            <img src="imagenes/hot cake dinno kid.jpg" alt="">
+            <h3>Dinno</h3>
+            <p></p>
+            <strong>$96</strong>
+        </div>
+        <div class="product" onclick="openModal('Corazon', 'Hot cakes con topping a elegir (nutella, lechera) acompañados de fruta de temporada', 96, 'imagenes/hot cake corazon kids.jpg')">
+            <img src="imagenes/hot cake corazon kids.jpg" alt="">
+            <h3>Corazon</h3>
+            <p></p>
+            <strong>$96</strong>
+        </div>
+        <div class="product" onclick="openModal('Michey', 'Hot cakes, acompañados de fruta de temporada y crema batida, elegir (nutella, lechera) acompañados de fruta de temporada.', 96, 'imagenes/hot cakes corazon.jpg')">
+            <img src="imagenes/hot cakes corazon.jpg" alt="">
+            <h3>Michey</h3>
+            <p></p>
+            <strong>96</strong>
+        </div>
+        <div class="product" onclick="openModal('Mini frances', 'Pan brioche acompañado con un huevo revuelto y tocino. ', 98, 'imagenes/mini frances kids.jpg')">
+            <img src="imagenes/mini frances kids.jpg" alt="">
+            <h3>Mini frances</h3>
+            <p> </p>
+            <strong>$98</strong>
+        </div>
+    </section>
+
+    <section id="Hotcakes" class="menu-section">
+        <h2>Hotcakes y Pan Frances</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Hotcakes', '3pzs hot cakes clásicos, acompañados con fruta de temporada.', 127, 'imagenes/hot cakes classic.jpg')">
+            <img src="imagenes/hot cakes classic.jpg" alt="">
+            <h3>Hotcakes</h3>
+            <p></p>
+            <strong>$127</strong>
+        </div>
+        <div class="product" onclick="openModal('De la casa', 'Crema de cacahuate, nuez, miel de agave con fruta de temporada (3pzas)', 139, 'imagenes/hot cake de la casa.jpg')">
+            <img src="imagenes/hot cake de la casa.jpg" alt="">
+            <h3>De la casa</h3>
+            <p></p>
+            <strong>$139</strong>
+        </div>
+    </section>
+
+    <section id="Especialidad_PanBrioche" class="menu-section">
+        <h2>Pan Brioche</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Honey Spice', 'Pan Brioche con mantequilla con pollo empalizado bañado en salsa honey spice con un toque de chipotle, tocino y cebollín.', 177, 'imagenes/pan frances honey spice.jpg')">
+            <img src="imagenes/pan frances honey spice.jpg" alt="">
+            <h3>Honey Spice</h3>
+            <p></p>
+            <strong>$177</strong>
+        </div>
+        <div class="product" onclick="openModal('Americano', 'Pan brioche hidratado con azúcar y canela acompañado de Tocino y 2 piezas de huevo termino a elegir. ', 147, 'imagenes/americano.jpg')">
+            <img src="imagenes/americano.jpg" alt="">
+            <h3>Americano</h3>
+            <p></p>
+            <strong>$147</strong>
+        </div>
+        <div class="product" onclick="openModal('Croque madame', 'Pan Brioche, relleno de jamón de pechuga de pavo, acompañado de bechamel con queso parmesano y cebollín con un huevo estrellado (termino a elegir)', 147, 'imagenes/croque madame.jpg')">
+            <img src="imagenes/croque madame.jpg" alt="">
+            <h3>Croque madame</h3>
+            <p></p>
+            <strong>$147</strong>
+        </div>
+        <div class="product" onclick="openModal('Croque Monsieur', 'Pan Brioche relleno de jamón pechuga de pavo, tocino, salsa bechamel queso gratinado y cebollín acompañado de ensalada dulce. (espinaca, fresa, manzana, arándano, nuez, vinagreta de la casa)', 161, 'imagenes/croque mounseir .jpg')">
+            <img src="imagenes/croque mounseir .jpg" alt="">
+            <h3>Croque Monsieur</h3>
+            <p></p>
+            <strong>$161</strong>
+        </div>
+        <div class="product" onclick="openModal('Sandwich Roast beef', 'Pan brioche con mantequilla de echalote y romero, roast beef, cebolla.champiñones caramelizados, queso mozzarella gratinado, arugula, aderezo chipotle acompañado de papas de camote.', 187, 'imagenes/ROAS BEEF.jpg')">
+            <img src="imagenes/ROAST BEEF.jpg" alt="">
+            <h3>Sandwich Roast beef</h3>
+            <p></p>
+            <strong>$187</strong>
+        </div>
+    </section>
+
+    <section id="postres" class="menu-section">
+        <h2>Postres</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Pan francés Lotus Biscoff ', 'Pan brioche hidratado en leche de la casa con buttercreme de Lotus Biscoff, queso crema, mascarpone, nieve de vainilla.', 183, 'imagenes/pan frances lotus.jpg')">
+            <img src="imagenes/pan frances lotus.jpg" alt="">
+            <h3>Pan frances Lotus Biscoff</h3>
+            <p></p>
+            <strong>$183</strong>
+        </div>
+        
+        <div class="product" onclick="openModal('Churro Caramelo', 'Pan brioche en leche especial de la casa, relleno de queso mascarpone con azúcar y coco y canela, acompañado de helado, kínder bueno, bañado con caramelo salado. ', 177, 'imagenes/churro caramelo.jpg')">
+            <img src="imagenes/churro caramelo.jpg" alt="">
+            <h3>Churro Caramelo</h3>
+            <p></p>
+            <strong>$177</strong>
+        </div>
+        
+        <div class="product" onclick="openModal('Crème brûlée ', 'Pan brioche en leche especial de la casa, bañado en Crème brûlée con toque de limon Eureka, con una costra crujiente de caramelo y crumble de naranja con fruta de temporada.', 177, 'imagenes/pan frances cremme brulle.jpg')">
+            <img src="imagenes/pan frances cremme brulle.jpg" alt="">
+            <h3>Crème brûlée</h3>
+            <p></p>
+            <strong>$177</strong>
+        </div>
+        
+        <div class="product" onclick="openModal('Tiramisú ', 'Pan brioche en leche especial de la casa, con toque de Kahlua Relleno de queso crema, café y cocoa, Blueberry y menta.', 169, 'imagenes/pan frances tiramisu_.jpg')">
+            <img src="imagenes/pan frances tiramisu_.jpg" alt="">
+            <h3>Tiramisú</h3>
+            <p></p>
+            <strong>$169</strong>
+        </div>
+        <div class="product" onclick="openModal('Chocolatín ', 'Pan brioche en leche especial de la casa, acompañado de crumble de cacao, brownie de chocolate, con crema de Nutella con avellanas, helado, crema batida y chocolate ferrero. ', 183, 'imagenes/chocolatin pan frances.jpg')">
+            <img src="imagenes/chocolatin pan frances.jpg" alt="">
+            <h3>Chocolatín</h3>
+            <p></p>
+            <strong>$183</strong>
+        </div>
+        <div class="product" onclick="openModal('Pan de Elote ', 'Pan brioche en leche especial de la casa, con pan de elote, elote salteados y helado de vainilla.', 183, 'imagenes/pan frances elote.jpg')">
+            <img src="imagenes/pan frances elote.jpg" alt="">
+            <h3>Pan de Elote</h3>
+            <p></p>
+            <strong>$183</strong>
+        </div> 
+        <div class="product" onclick="openModal('Fresas con crema', 'Pan brioche en leche especial de la casa, relleno de queso crema con compota de fresas, acompañado de fresas con crema.', 173, 'imagenes/pan frances fresas con crema.jpg')">
+            <img src="imagenes/pan frances fresas con crema.jpg" alt="">
+            <h3>Fresas con crema</h3>
+            <p></p>
+            <strong>$173</strong>
+        </div>
+        <div class="product" onclick="openModal('Frutos rojos', 'Pan brioche en leche especial de la casa, con un toque de ron bañado con compota de frutos rojos, salsa cremosa de queso mascarpone, crumble de canela.', 179, 'imagenes/pan frances frutos rojos_.jpg')">
+            <img src="imagenes/pan frances frutos rojos_.jpg" alt="">
+            <h3>Frutos rojos</h3>
+            <p></p>
+            <strong>$179</strong>
+        </div> 
+        
+    </section>
+
+    <section id="bowls_Fruta" class="menu-section">
+        <h2>Bowls de Fruta</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Bowl Frappe', 'Fruta de temporada base frutos rojos yogur griego miel de agave granola coco tostado arándano almendra nuez a elegir.', 157, 'imagenes/')">
+            <img src="imagenes/fr" alt="">
+            <h3>Bowl Frappe</h3>
+            <p></p>
+            <strong>$157</strong>
+        </div>
+        <div class="product" onclick="openModal('Fruta', 'fruta de temporada acompañada de yogur griego, miel de agave, (granola, coco tostado, arándano, almendra, nuez,) a elegir.', 131, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Fruta</h3>
+            <p></p>
+            <strong>$131</strong>
+        </div>
+    </section>
+
+    <section id="Licuados_Jugos" class="menu-section">
+        <h2>Jugos y Licuados</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Fresa', 'Elaborado en leche deslactosada, fresa natural, endulzante de la casa. ', 71, 'imagenes/licuado de fresa.jpg')">
+            <img src="imagenes/licuado de fresa.jpg" alt="">
+            <h3>Fresa</h3>
+            <p></p>
+            <strong>$71</strong>
+        </div>
+        <div class="product" onclick="openModal('Platano', 'Elaborado en leche deslactosada, plátano natural, endulzante de la casa.', 69, 'imagenes/licuado de platano.jpg')">
+            <img src="imagenes/licuado de platano.jpg" alt="">
+            <h3>Platano</h3>
+            <p></p>
+            <strong>$69</strong>
+        </div>
+        <div class="product" onclick="openModal('Chomomilk', 'Elaborada en leche deslactosada, chocomilk, endulzante de la casa. ', 67, 'imagenes/chocomilk.jpg')">
+            <img src="imagenes/chocomilk.jpg" alt="">
+            <h3>Chomomilk</h3>
+            <p></p>
+            <strong>$67</strong>
+        </div>
+        <div class="product" onclick="openModal('Naranja', 'Bebida 100 % natural sin conservadores 550 Ml.', 69, 'imagenes/jugo naranja.jpg')">
+            <img src="imagenes/jugo naranja.jpg" alt="">
+            <h3>Naranja</h3>
+            <p></p>
+            <strong>$69</strong>
+        </div>
+        <div class="product" onclick="openModal('Verde', 'Bebida 100% natural sin conservadores receta de la casa con jugo de naranja.', 71, 'imagenes/jugo verde.jpg')">
+            <img src="imagenes/jugo verde.jpg" alt="">
+            <h3>Verde</h3>
+            <p></p>
+            <strong>$71</strong>
+        </div>
+        <div class="product" onclick="openModal('Fresa Naranja', 'Bebida 100 % natural con jugo de naranja y fresa natural sin conservadores.', 69, 'imagenes/jugo fresa naranja.jpg')">
+            <img src="imagenes/jugo fresa naranja.jpg" alt="">
+            <h3>Fresa Naranja</h3>
+            <p></p>
+            <strong>$69</strong>
+        </div>
+        
+    </section>
+
+    <section id="Cafes" class="menu-section">
+        <h2>Cafes</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Café americano (Refil)', 53, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Café americano (Refil)</h3>
+            <p></p>
+            <strong>$53</strong>
+        </div>
+        <div class="product" onclick="openModal('Café descafeinado', '(Refil) ', 53, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Cafe descafeinado </h3>
+            <p></p>
+            <strong>$53</strong>
+        </div>
+        <div class="product" onclick="openModal('Capuchino', 'Elaborado con leche deslactosada', 65, 'imagenes/capuchino.jpg')">
+            <img src="imagenes/capuchino.jpg" alt="">
+            <h3>Capuchino</h3>
+            <p></p>
+            <strong>$65</strong>
+        </div>
+        <div class="product" onclick="openModal('Latte', 'Elaborado con leche deslactosada', 65, 'imagenes/latte.jpg')">
+            <img src="imagenes/latte.jpg" alt="">
+            <h3>Latte</h3>
+            <p></p>
+            <strong>$65</strong>
+        </div>
+    </section>
+
+    <section id="Frappes" class="menu-section">
+        <h2>Frappes</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Taro', 'Preparado en mezcla frappe de la casa con taro ', 85, 'imagenes/taro.jpg')">
+            <img src="imagenes/taro.jpg" alt="">
+            <h3>Taro</h3>
+            <p></p>
+            <strong>$85</strong>
+        </div>
+        <div class="product" onclick="openModal('Matcha', 'Preparado en mezcla frappe de la casa con  Matcha ', 85, 'imagenes/matcha.jpg')">
+            <img src="imagenes/matcha.jpg" alt="">
+            <h3>Matcha</h3>
+            <p></p>
+            <strong>$85</strong>
+        </div>
+        <div class="product" onclick="openModal('Chai té negro', 'Preparado en mezcla frappe de la casa con chai té negro ', 85, 'imagenes/chai negro.jpg')">
+            <img src="imagenes/chai negro.jpg" alt="">
+            <h3>Chai té negro</h3>
+            <p></p>
+            <strong>$85</strong>
+        </div>
+    </section>
+
+    <section id="Aguas_Refrescos" class="menu-section">
+        <h2>Aguas y refrescos</h2>
+        <div class="products">
+            <div class="product" onclick="openOptionsModal('Agua de sabor', 'Bebida Natural 100% natural libres de conservadores, con endulzante de la casa', 56, 'imagenes/aguas de sabor.jpg')">
+                <img src="imagenes/aguas de sabor.jpg" alt="">
+                <h3>Agua de Sabor</h3>
+                <p></p>
+                <strong>$56</strong>
+            </div>
+            <!-- Producto -->
+            <div id="optionsModal" class="modal1">
+                <div class="modal-content">
+                    <span class="close1" onclick="closeOptionsModal()">&times;</span>
+                    <h3 id="modal-title">Agua de Sabor</h3>
+                    <img id="modal-image" src="imagenes/aguas de sabor.jpg" alt="" style="width: 100%; max-width: 300px; margin-bottom: 10px;">
+                    <p id="modal-description"><strong>Selecciona la opción: </strong></p>
+                    <form id="options-form">
+                    <label><input type="checkbox" name="option" value="Jamaica"> Jamaica</label><br>
+                    <label><input type="checkbox" name="option" value="Fresa"> Fresa</label><br>
+                    <label><input type="checkbox" name="option" value="Limon"> Limón</label><br>
+                    <label><input type="checkbox" name="option" value="Pepino Limon"> Pepino Limón</label><br>
+                    <label><input type="checkbox" name="option" value="Horchata"> Horchata</label>
+                    </form>
+                </div>
+            </div>
+
+            
+            <div class="product" onclick="openModal('Coca-Cola', '350 ml Regular o Light ', 41, 'imagenes/refrescos.jpg')">
+                <img src="imagenes/refrescos.jpg" alt="">
+                <h3>Coca-Cola</h3>
+                <p></p>
+                <strong>$41</strong>
+            </div>
+        <!-- Producto de ejemplo -->
+            <div class="product" onclick="openModal('S.pellegrino', 'Agua mineral 250 Ml.', 45, 'imagenes/')">
+                <img src="imagenes/" alt="">
+                <h3>S.pellegrino</h3>
+                <p></p>
+                <strong>$45</strong>
+            </div>
+            <div class="product" onclick="openModal('Soda Italiana', 'Frambuesa, Kiwi, Mango, Fresa. Agua mineral, Jarabe de casa, Cereza, Hielo', 65, 'imagenes/soda italiana.jpg')">
+                <img src="imagenes/soda italiana.jpg" alt="">
+                <h3>Soda Italiana</h3>
+                <p></p>
+                <strong>$65</strong>
+            </div>
+    </section>
+
+    <section id="Bebidas" class="menu-section">
+        <h2>Bebidas</h2>
+        <div class="products">
+        <!-- Producto de ejemplo -->
+        <div class="product" onclick="openModal('Mimosa Clasica', '', 77, 'imagenes/mimosa.jpg')">
+            <img src="imagenes/mimosa.jpg" alt="">
+            <h3>Mimosa clasica</h3>
+            <p></p>
+            <strong>$77</strong>
+        </div>
+        <div class="product" onclick="openModal('Mimosa Starberry', '', 87, 'imagenes/mimosa.jpg')">
+            <img src="imagenes/mimosa.jpg" alt="">
+            <h3>Mimosa Starberry</h3>
+            <p></p>
+            <strong>$87</strong>
+        </div>
+        <div class="product" onclick="openModal('Cerveza', 'Elige entre Corona o Modelo', { 'Corona': 45, 'Modelo': 47 }, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Cerveza</h3>
+            <p></p>
+            <strong>$45 - $47</strong>
+        </div>
+        
+        
+        <div class="product" onclick="openModal('Carajillo', '', 137, 'imagenes/carajillo.jpg')">
+            <img src="imagenes/carajillo.jpg" alt="">
+            <h3>Carajillo</h3>
+            <p></p>
+            <strong>$137</strong>
+        </div>
+        <div class="product" onclick="openModal('Carajillo Frances', '', 149, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Carajillo Frances</h3>
+            <p></p>
+            <strong>$149</strong>
+        </div>
+        <div class="product" onclick="openModal('Carajillo Maracuya', '', 149, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Carajillo Maracuya</h3>
+            <p></p>
+            <strong>$149</strong>
+        </div>
+        <div class="product" onclick="openModal('Carajillo Fresa', '', 149, 'imagenes/')">
+            <img src="imagenes/" alt="">
+            <h3>Carajillo Fresa</h3>
+            <p></p>
+            <strong>$149</strong>
+        </div>
+    </section>
+    
+    <!-- MODAL -->
+    <div id="optionsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeOptionsModal()">&times;</span>
+        <h3 id="modal-title"></h3>
+        <img id="modal-image" src="" alt="" style="width: 100%; max-width: 300px; margin-bottom: 10px;">
+        <p id="modal-description"></p>
+        <form id="options-form"></form>
+        <button onclick="closeOptionsModal()">Cerrar</button>
+        <button onclick="hacerOrden()">Ordenar</button>
+    </div>
+</div>
+
+
+<script src="js/index.js"></script>
+
+
+<footer class="footer">
+    <p>© 2025 Códexcer. Todos los derechos reservados.</p>
+    <p>
+    Este sitio web, incluyendo su diseño, código, contenido, gráficos, y demás elementos, es propiedad de Códexcer. 
+    Queda prohibida la reproducción, distribución, transmisión, modificación o cualquier uso no autorizado del contenido 
+    de este sitio sin el consentimiento previo y por escrito de Códexcer.
+    </p>
+</footer>
+
+</body>
+</html>
